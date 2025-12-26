@@ -19,7 +19,7 @@ You can use a screwdriver or a tweezer to short the two pins.
 1. You don't have to connect the board with an a power adapter, just use a male to male USB cable connected to the USB 3.0 port of the board.
 2. Tutorial on how to unbrick your device (In Indonesian) [Fix: X96 Max Plus Bricked](https://github.com/hillz2/X96_Air_Hard_Brick_and_Short_Pin_Location/blob/main/Fix%20X96%20Max%20Plus%20Bricked%20(Short%20Pin%20Tutorial).mp4) (Don't use the firmware in that video to flash your X96 Max Plus)
 3. If you encounter ROMCODE error, follow this tutorial (In Indonesian) [Fix: ROMCODE Error X96 Max Plus](https://github.com/hillz2/X96_Air_Hard_Brick_and_Short_Pin_Location/blob/main/Fix%20HG680P%20%26%20X96%20Max%20Plus%20Error%20ROMCODE.mp4)
-4. The firmware that I used is [v9] Aidan's Rom (X96 Max Plus A100), you can download it in the release page of this repository 
+4. The firmware that I used is SlimBox ROM (X96 Max Plus A100), you can download it in the release page of this repository 
 5. If later you wanna flash openwrt on X96 Max Plus, you can use RTA-WRT firmware, you can download it in the release page as well
 6. All the tools can be downloaded in this repository.
 
