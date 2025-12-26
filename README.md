@@ -1,4 +1,4 @@
-# X96_Air_Hard_Brick_and_Short_Pin_Location
+# X96_Max_Plus_Hard_Brick_and_Short_Pin_Location
 X96 Max Plus Hard Brick and Short Pin Location
 
 I once hard bricked my X96 Max Plus and I had to find the short pin location through trial & error. So I created this repository as a reminder for me if it happens again in the future.
