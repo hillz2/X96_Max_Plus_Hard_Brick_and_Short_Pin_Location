@@ -36,3 +36,13 @@ Don't flash OpenWrt Firmware on your bricked X96 Max Plus right away! Flash the 
    4. Choose `505:X96-Max+_A100:s905x3: 4GB-Mem,32G-Rom,Wifi-AM7256,100Mb-Nic`
    5. Choose to write mainline bootloader to EMMC
    6. After it's done then remove the SD card and unplug the power cable.
+  
+# UPDATE 26 DECEMBER 2025, OPENWRT INSTALLATION TUTORIAL:
+1. Download RTA-WRT firmware from the release page
+2. Extract it then burn the image to an SD card
+3. *IMPORTANT*. If you wanna install RTA-WRT to the EMMC, do it from the terminal window, not from the Luci web interface, it'll brick your TV Box, here's how:
+4. Run `openwrt-install-amlogic`
+5. Choose `505:X96-Max+_A100:s905x3: 4GB-Mem,32G-Rom,Wifi-AM7256,100Mb-Nic`
+6. Choose to write mainline bootloader to EMMC
+7. Choose `btrfs` file system or `ext4`
+8. After it's done then remove the SD card and unplug the power cable.
