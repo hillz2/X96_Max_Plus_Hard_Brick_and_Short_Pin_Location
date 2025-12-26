@@ -28,7 +28,7 @@ Don't flash OpenWrt Firmware on your bricked X96 Max Plus right away! Flash the 
 # UPDATE 04 SEPTEMBER 2023:
 1. LAN port doesn't work, use a **USB to LAN** to connect to ethernet
 2. USB 3.0 port is buggy with openwrt
-3. You can use any openwrt firmware (I personally use HelmiWrt). I find that ROOter Openwrt Firmware is the only firmware that can enable the built-in 2.4Ghz wifi, other firmware only enable 5Ghz internal wifi
+3. You can use any openwrt firmware (I personally use RTA-WRT).
 4. To install OpenWrt to EMMC:
    1. Make sure your device is installed with Android **NOT** OpenWrt
    2. Burn the openwrt image to an SD card then boot from it.
