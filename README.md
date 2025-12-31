@@ -48,6 +48,7 @@ Don't flash OpenWrt Firmware on your bricked X96 Max Plus right away! Flash the 
 8. After it's done then remove the SD card and unplug the power cable.
 
 # DTB file that matches my TV Box:
+You won't be able to boot to OpenWrt if you don't use the correct dtb file
 ```
 root@at-home:~ #  cat /boot/uEnv.txt 
 LINUX=/zImage
