@@ -46,3 +46,13 @@ Don't flash OpenWrt Firmware on your bricked X96 Max Plus right away! Flash the 
 6. Choose to write mainline bootloader to EMMC
 7. Choose `btrfs` file system or `ext4`
 8. After it's done then remove the SD card and unplug the power cable.
+
+# DTB file that matches my TV Box:
+```
+root@at-home:~ #  cat /boot/uEnv.txt 
+LINUX=/zImage
+INITRD=/uInitrd
+FDT=/dtb/amlogic/meson-sm1-x96-max-plus-a100.dtb
+APPEND=root=UUID=8b4a8c39-0a98-4f3e-8ff0-d1979bbdfffb rootfstype=btrfs rootflags=compress=zstd:6 console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0 cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory swapaccount=1
+```
+`meson-sm1-x96-max-plus-a100.dtb` can be downloaded in the repository
